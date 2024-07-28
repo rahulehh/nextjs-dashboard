@@ -1,4 +1,9 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Invoices | Acme Dashboard',
+};
 
 // cannot be added since it requires nextjs canary
 // export const experimental_ppr = true;
